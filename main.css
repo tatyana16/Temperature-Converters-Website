@@ -20,12 +20,7 @@ p {
     border-style: double;
   }
 
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
-
-.footer {
-    display: block;
+  .flex-wrapper {
+    display: flex;
+    flex-direction: column;
   }
