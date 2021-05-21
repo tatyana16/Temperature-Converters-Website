@@ -1,0 +1,14 @@
+#form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+
+.bg-teal {
+    background-color: #b3c2b3;
+}
+
+.btn-teal {
+    background-color: #596b68;
+    color:#f2f2f2;
+}
