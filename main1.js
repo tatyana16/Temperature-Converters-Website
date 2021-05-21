@@ -8,9 +8,10 @@ window.onload = function() {
 
 function calccBtnClicked() {
     // get celsius temperature from <input> field 
-    const calccField = document.getElementById("calcc");
-    let calcc = Number(calccField.value);
-    let celsius = (calcc - 32) * 5/9;
+    const fahrenheitInputField = document.getElementById("fahrenheitInput");
+    let fah = Number(fahrenheitInputField.value);
+    
+    let celsius = (fah - 32) * 5/9;
 
     let celsiusResult = document.getElementById("celsiusResult");
     celsiusResult.value = celsius;
